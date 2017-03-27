@@ -2,9 +2,15 @@ body {
     background-color: #232323;
     font-family: "Arial Black", Gadget, sans-serif;
 }
+
+div {
+    cursor:wait;
+}
+
 h1 {
     color: #e8e9f2;
 }
+
 p {
     color: #ebe7f1;
     font-size: 120%;
