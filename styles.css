@@ -1,10 +1,10 @@
 body {
-    background-color: powderblue;
+    background-color: #232323;
 }
 h1 {
-    color: blue;
+    color: #e8e9f2;
 }
 p {
-    color: red;
-    font-size: 200%;
+    color: #ebe7f1;
+    font-size: 150%;
 }
