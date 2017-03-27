@@ -32,3 +32,7 @@ a:active {
     background-color:transparent;
     text-decoration:underline;
 }
+
+address {
+    color: #e8e9f2;
+}
