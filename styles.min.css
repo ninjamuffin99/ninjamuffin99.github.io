@@ -1,0 +1,10 @@
+body{background-color:#232323;font-family:"Arial Black",Gadget,sans-serif;cursor:wait;}
+#title{text-align:center;}
+h1{color:#e8e9f2;}
+p{color:#ebe7f1;font-size:100%;font-family:Verdana,serif;}
+a:link{color:green;background-color:transparent;text-decoration:none;font-family:Verdana,sans-serif;}
+a:visited{color:pink;background-color:transparent;text-decoration:none;}
+a:hover{color:red;background-color:transparent;text-decoration:underline;}
+a:active{color:yellow;background-color:transparent;text-decoration:underline;}
+address{color:#e8e9f2;}
+
