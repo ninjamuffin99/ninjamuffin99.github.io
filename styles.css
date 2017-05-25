@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+#selector {
+    width:100%;
+    height:100%;
+}
+
 h1 {
     color: #e8e9f2;
 }

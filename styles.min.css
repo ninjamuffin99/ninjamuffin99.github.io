@@ -1,5 +1,6 @@
 body{background-color:#232323;font-family:"Arial Black",Gadget,sans-serif;cursor:wait;}
 #title{text-align:center;}
+#selector{width:100%;height:100%;}
 h1{color:#e8e9f2;}
 p{color:#ebe7f1;font-size:100%;font-family:Verdana,serif;}
 a:link{color:green;background-color:transparent;text-decoration:none;font-family:Verdana,sans-serif;}
