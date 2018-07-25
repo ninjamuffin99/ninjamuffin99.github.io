@@ -1,7 +1,7 @@
 body {
-    background-color: #232323;
+    background-color: rgb(162, 169, 209);
     font-family: "Arial Black", Gadget, sans-serif;
-	cursor:wait;
+    cursor:wait;
 }
 
 #title {
@@ -14,40 +14,55 @@ body {
 }
 
 h1 {
-    color: #e8e9f2;
+
 }
 
 p {
-    color: #ebe7f1;
     font-size: 100%;
 	font-family: Verdana, serif;
 }
 
 a:link {
-    color:green; 
     background-color:transparent; 
     text-decoration:none;
 	font-family: Verdana, sans-serif;
 }
 
 a:visited {
-    color:pink;
     background-color:transparent;
     text-decoration:none;
 }
 
 
 a:hover {
-    color:red;
     background-color:transparent;
     text-decoration:underline;
 }
 a:active {
-    color:yellow;
     background-color:transparent;
     text-decoration:underline;
 }
 
+ul .projtitle {
+    font-weight: bold;
+    color: #333366;
+}
+
+.date {
+    color: gray;
+    font-size: 70%;
+}
+
+ul {
+    background-color: #5555AA;
+    width: 70%;
+    border: solid rgb(255, 255, 255);
+    border-width: 0px 0px 0px 8px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
 address {
     color: #e8e9f2;
+    border-style: 3px solid white;
 }
