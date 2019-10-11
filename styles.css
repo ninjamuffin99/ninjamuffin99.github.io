@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
 
 body {
-    background-color: rgb(245, 246, 255);
+    background-color: #222;
     padding-top: 54px;
+    color: #FFF;
 }
 
 h1 {
@@ -12,10 +13,34 @@ h1 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  margin: 16px 100px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:link {
+  color: rgb(255, 35, 35);
+}
+
+a:visited {
+  color: rgb(200, 30, 30);
 }
 
 .mid {
   text-align: center;
+}
+
+.sample {
+  background: #1a1a1a;
+  margin: 40px 150px;
+  padding: 25px;
+  box-shadow: 3px 3px 3px #111;
+}
+
+.sampletitle {
+  font-size: 32px;
 }
 
 @media (min-width: 992px) {
