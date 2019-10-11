@@ -1,68 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
+
 body {
-    background-color: rgb(162, 169, 209);
-    font-family: "Arial Black", Gadget, sans-serif;
-    cursor:wait;
-}
-
-#title {
-    text-align: center;
-}
-
-#selector {
-    width:100%;
-    height:100%;
+    background-color: rgb(245, 246, 255);
+    padding-top: 54px;
 }
 
 h1 {
-
+  font-family: 'Inconsolata', monospace;
 }
 
 p {
-    font-size: 100%;
-	font-family: Verdana, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-a:link {
-    background-color:transparent; 
-    text-decoration:none;
-	font-family: Verdana, sans-serif;
+.mid {
+  text-align: center;
 }
 
-a:visited {
-    background-color:transparent;
-    text-decoration:none;
-}
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .pagination {
+    margin-bottom: 15px;
+  }
 
-
-a:hover {
-    background-color:transparent;
-    text-decoration:underline;
-}
-a:active {
-    background-color:transparent;
-    text-decoration:underline;
-}
-
-ul .projtitle {
-    font-weight: bold;
-    color: #333366;
-}
-
-.date {
-    color: gray;
-    font-size: 70%;
-}
-
-ul {
-    background-color: #5555AA;
-    width: 70%;
-    border: solid rgb(255, 255, 255);
-    border-width: 0px 0px 0px 8px;
-    padding: 10px;
-    margin-left: 5%;
-}
-
-address {
-    color: #e8e9f2;
-    border-style: 3px solid white;
-}
