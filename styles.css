@@ -14,10 +14,12 @@ h1 {
 p {
   font-family: 'Open Sans', sans-serif;
   margin: 16px 100px;
+  font-size: 1.5vw;
 }
 
 a {
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
 }
 
 a:link {
@@ -34,13 +36,18 @@ a:visited {
 
 .sample {
   background: #1a1a1a;
-  margin: 40px 150px;
+  margin: 40px 8vw;
   padding: 25px;
   box-shadow: 3px 3px 3px #111;
 }
 
 .sampletitle {
-  font-size: 32px;
+  font-size: 2.5vw;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 992px) {
