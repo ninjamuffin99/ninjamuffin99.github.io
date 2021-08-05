@@ -6,7 +6,9 @@ body {
   padding-top: 54px;
   color: #fff;
 }
-
+header {
+  text-align: center;
+}
 h1 {
   font-family: "Inconsolata", monospace;
 }
@@ -30,7 +32,7 @@ a:visited {
   color: rgb(200, 30, 30);
 }
 
-.mid {
+main {
   text-align: center;
 }
 
