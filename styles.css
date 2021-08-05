@@ -25,11 +25,11 @@ a {
 }
 
 a:link {
-  color: rgb(255, 35, 35);
+  color: #FF2323;
 }
 
 a:visited {
-  color: rgb(200, 30, 30);
+  color: #C81E1E;
 }
 
 main {
