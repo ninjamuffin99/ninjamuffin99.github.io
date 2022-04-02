@@ -2,61 +2,61 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap');
 
 body {
-    background-color: #222;
-    padding-top: 54px;
-    color: #FFF;
+	background-color: #222;
+	padding-top: 54px;
+	color: #FFF;
 }
 
 h1 {
-  font-family: 'Inconsolata', monospace;
+	font-family: 'Inconsolata', monospace;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  margin: 16px 0px;
-  font-size: 1.5vw;
+	font-family: 'Open Sans', sans-serif;
+	margin: 16px 0px;
+	font-size: 1.5vw;
 }
 
 a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5vw;
 }
 
+/* These should be changed, they're hardly readable*/
 a:link {
-  color: rgb(255, 35, 35);
+	color: rgb(255, 35, 35);
 }
 
 a:visited {
-  color: rgb(200, 30, 30);
+	color: rgb(200, 30, 30);
 }
 
 .mid {
-  text-align: center;
+	text-align: center;
 }
 
 .sample {
-  background: #1a1a1a;
-  margin: 40px 4vw;
-  padding: 25px;
-  box-shadow: 3px 3px 3px #111;
+	background: #1a1a1a;
+	margin: 40px 4vw;
+	padding: 25px;
+	box-shadow: 3px 3px 3px #111;
 }
 
 .sampletitle {
-  font-size: 2.5vw;
+	font-size: 2.5vw;
 }
 
 .responsive {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 @media (min-width: 992px) {
-    body {
-      padding-top: 56px;
-    }
-  }
+	body {
+		padding-top: 56px;
+	}
+}
   
-  .pagination {
-    margin-bottom: 15px;
-  }
-
+.pagination {
+	margin-bottom: 15px;
+}
